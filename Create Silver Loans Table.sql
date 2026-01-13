@@ -1,5 +1,4 @@
-CREATE TABLE IF NOT EXISTS main.anicholls.issued_loans_silver
-CLUSTER BY AUTO AS
+CREATE TABLE IF NOT EXISTS training.loans.issued_loans_silver
 SELECT
   id AS loan_id,
   loan_amnt,

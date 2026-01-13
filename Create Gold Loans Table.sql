@@ -1,6 +1,5 @@
-CREATE TABLE IF NOT EXISTS main.anicholls.issued_loans_gold
-CLUSTER BY AUTO
-AS
+CREATE TABLE IF NOT EXISTS training.loans.issued_loans_gold
+SELECT
 SELECT
   loan_id,
   loan_amnt,
@@ -15,7 +14,7 @@ SELECT
   addr_state,
   dti
 FROM
-  main.anicholls.issued_loans_silver;
+  training.loans.issued_loans_silver;
 
 SELECT *
 FROM main.anicholls.issued_loans_silver
