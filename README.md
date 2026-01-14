@@ -1,1 +1,1 @@
-# databricks-workshop-20250501
+# NVIDIA Ops Team Databricks Workshop 2026-01-14
